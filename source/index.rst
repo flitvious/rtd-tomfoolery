@@ -7,7 +7,7 @@ Welcome to Ye Magnificent Tomfoolery Guide's documentation!
 ===========================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
    tutorials

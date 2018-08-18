@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Ye Magnificent Tomfoolery Guide'
-copyright = '2018, Paul Salnikov'
-author = 'Paul Salnikov'
+copyright = '2018, Pavel Salnikov'
+author = 'Pavel Salnikov'
 
 # The short X.Y version
 version = ''
