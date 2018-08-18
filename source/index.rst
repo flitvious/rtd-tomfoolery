@@ -10,7 +10,7 @@ This guide is created by a team of professional tomfoolers: |tomfool_names|.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Tomfoolery in a nutshell
    
    tutorials
    guides
