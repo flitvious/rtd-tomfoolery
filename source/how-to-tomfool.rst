@@ -13,8 +13,15 @@ Tomfoolery is an ancient practice of doing silly things. Since time immemorial p
 Three steps to tomfooling
 -------------------------
 
-Tomfooling is not so hard:
+.. ifconfig:: audience in ('newbies', 'default')
+
+    Tomfooling is not so hard:
+
+.. ifconfig:: audience in ('master')
+    
+    Tomfooling for general public is:
 
 #. Concentrate.
 #. Relax.
 #. Do whatever you want, unless it is not hard labor.
+
