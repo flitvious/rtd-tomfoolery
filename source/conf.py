@@ -184,7 +184,7 @@ language = 'en'
 # -- Prolog substitutions (available on all pages)
 
 tomfool_names = 'Jon, Snide, and Hector'
-project_name = 'Tomfoolery guide'
+project_name = 'Tomfoolery guide (developer version)'
 
 rst_prolog = """
 .. |tomfool_names| replace:: {0}
