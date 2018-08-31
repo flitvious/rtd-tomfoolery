@@ -175,10 +175,10 @@ todo_include_todos = True
 #rst_prolog = """
 #.. |tomfool_names| replace:: {0}
 #.. |project_name| replace:: {1}
-""".format(
-tomfool_names, 
-project_name
-)
+#""".format(
+#tomfool_names, 
+#project_name
+#)
 
 
 # -- Ifconfig conditionals
