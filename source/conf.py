@@ -87,7 +87,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -159,8 +159,6 @@ texinfo_documents = [
 
 # -- Extension configuration -------------------------------------------------
 
-# Local markdown support
-
 # Options for todo extension
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
@@ -172,19 +170,19 @@ todo_include_todos = True
 #tomfool_names = 'Jon, Snide, and Hector'
 #project_name = 'Tomfoolery guide'
 
-#rst_prolog = """
-#.. |tomfool_names| replace:: {0}
-#.. |project_name| replace:: {1}
-#""".format(
-#tomfool_names, 
-#project_name
-#)
+rst_prolog = """
+.. |tomfool_names| replace:: {0}
+.. |project_name| replace:: {1}
+""".format(
+tomfool_names, 
+project_name
+)
 
 
 # -- Ifconfig conditionals
 
-#audience = 'master'
+audience = 'master'
 
-#def setup(app):
+def setup(app):
     
-#    app.add_config_value('audience', 'default', 'env')
+    app.add_config_value('audience', 'default', 'env')
