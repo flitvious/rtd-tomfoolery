@@ -76,7 +76,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -169,12 +169,12 @@ todo_include_todos = True
 
 # -- Prolog substitutions (available on all pages)
 
-tomfool_names = 'Jon, Snide, and Hector'
-project_name = 'Tomfoolery guide'
+#tomfool_names = 'Jon, Snide, and Hector'
+#project_name = 'Tomfoolery guide'
 
-rst_prolog = """
-.. |tomfool_names| replace:: {0}
-.. |project_name| replace:: {1}
+#rst_prolog = """
+#.. |tomfool_names| replace:: {0}
+#.. |project_name| replace:: {1}
 """.format(
 tomfool_names, 
 project_name
@@ -183,8 +183,8 @@ project_name
 
 # -- Ifconfig conditionals
 
-audience = 'master'
+#audience = 'master'
 
-def setup(app):
+#def setup(app):
     
-    app.add_config_value('audience', 'default', 'env')
+#    app.add_config_value('audience', 'default', 'env')
